@@ -15,3 +15,11 @@ Esta es una versión modificada de Custom Knight adaptada específicamente para 
 
 ## Créditos
 Basado en el trabajo original de [PrashantMohta](https://github.com/PrashantMohta/HollowKnight.CustomKnight).
+
+## Automatización con GitHub Actions
+He configurado un workflow en `.github/workflows/android.yml` que:
+1. Prepara el entorno .NET.
+2. Intenta compilar el mod en modo Release.
+3. Genera un artefacto descargable con la DLL final.
+
+**Nota Importante:** Para que el workflow funcione en GitHub, debes subir las DLLs de referencia (UnityEngine, Assembly-CSharp, etc.) a la carpeta `References/` del repositorio, ya que son necesarias para la compilación.
