@@ -76,7 +76,7 @@ namespace CustomKnight
         /// GetName
         /// </summary>
         /// <returns></returns>
-        public new string GetName() => "Custom Knight";
+        public new string GetName() => "Custom Knight PEPDEOBFUVATO";
         /// <summary>
         /// GetVersion
         /// </summary>

@@ -2,8 +2,8 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <RootNamespace>CustomKnight</RootNamespace>
-    <AssemblyName>CustomKnight</AssemblyName>
-    <AssemblyVersion>3.5.0</AssemblyVersion>
+    <AssemblyName>CustomKnightPEPDEOBFUVATO</AssemblyName>
+    <AssemblyVersion>3.5.0.1</AssemblyVersion>
     <TargetFramework>net472</TargetFramework>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
