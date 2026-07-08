@@ -1,4 +1,0 @@
----
-title: Internals
-parent: Developers
----

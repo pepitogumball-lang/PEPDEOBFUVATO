@@ -1,32 +1,17 @@
-# Custom Knight 
+# Custom Knight PEPDEOBFUVATO (Mobile Version)
 
-Custom Knight is a Hollow Knight mod to load custom texture sheets for the player, enemies and areas. 
+Esta es una versión modificada de Custom Knight adaptada específicamente para **Hollow Knight en dispositivos móviles (Android/iOS)**.
 
-[Installation guide](https://prashantmohta.github.io/HollowKnight.CustomKnight/user/installing/) 
+## Cambios Realizados para Mobile
+- **Eliminación de dependencias de escritorio:** Se han quitado las referencias a SDKs de Microsoft específicos de PC.
+- **Compatibilidad con Unity Mobile:** El proyecto está configurado para usar librerías de Unity compatibles con Android/iOS.
+- **Identificación Única:** Modificado para ser reconocido por el cargador de mods móvil como `Custom Knight PEPDEOBFUVATO`.
+- **Estructura de Referencias:** Se utiliza una carpeta `References/` para las DLLs necesarias del juego móvil.
 
-## Features
+## Instalación en Mobile
+1. Coloca la DLL compilada en la carpeta de mods de tu dispositivo (usualmente `Android/data/com.TeamCherry.HollowKnight/files/Mods`).
+2. Asegúrate de tener instalada la dependencia **Satchel** versión móvil.
+3. Reinicia el juego.
 
-### Skinable
-- Basic Player Reskin
-- Inventory 
-- Save Select screen
-
-### Swapper
-- Dump sprites
-- Reskin Tk2d sprites
-- Change Text by Key
-- Change Text by find and replace
-
-### Cinematics
-- Allow changing cinematic videos
-
-### Developer API
-- Change skin at runtime
-- Modify the current skin at runtime
-- Make your gameobject skinable
-- Provide a skin at runtime
-- Request files from the current skin
-- Add support for arbitrary swap files
-
-Additional Custom Knight Documentation is available [here](https://prashantmohta.github.io/HollowKnight.CustomKnight/)
-
+## Créditos
+Basado en el trabajo original de [PrashantMohta](https://github.com/PrashantMohta/HollowKnight.CustomKnight).
